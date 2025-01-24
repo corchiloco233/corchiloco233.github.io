@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre Nueva York</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://wallpapercave.com/wp/wp2001059.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        #content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+        }
+
+        .menu {
+            width: 25%;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .menu h2 {
+            text-align: center;
+            color: #ecf0f1;
+            font-size: 1.5em;
+        }
+
+        .menu a {
+            display: block;
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            width: 75%;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #34495e;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+            font-size: 1.8em;
+        }
+
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .section img {
+            max-width: 60%;
+            height: auto;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div class="menu">
+            <h2>Explora Nueva York</h2>
+            <a href="#ubicacion">Ubicación</a>
+            <a href="#historia">Historia</a>
+            <a href="#libertad">Estatua de la Libertad</a>
+            <a href="#centralpark">Central Park</a>
+            <a href="#wallstreet">Wall Street</a>
+            <a href="#pizza">Pizza Neoyorquina</a>
+            <a href="#cultura">Cultura</a>
+            <a href="#eventos">Eventos Famosos</a>
+            <a href="#museos">Museos</a>
+            <a href="#transporte">Transporte</a>
+        </div>
+        <div class="content">
+            <div class="section" id="ubicacion">
+                <h2>Ubicación</h2>
+                <img src="https://www.turismoeeuu.com/wp-content/uploads/2016/02/9a-dentro-de-eeuu.jpg" alt="Mapa de Nueva York">
+                <p>Nueva York está en Estados Unidos, en la costa este. Es conocida como "La Gran Manzana" y "La Ciudad que Nunca Duerme".</p>
+            </div>
+            <div class="section" id="historia">
+                <h2>Historia</h2>
+                <img src="https://s2.abcstatics.com/abc/www/multimedia/cultura/2024/01/12/hamilton(2)-U54845432575mED-1024x512@abc.jpg" alt="Historia de Nueva York">
+                <p>En 1624, los holandeses fundaron "Nueva Ámsterdam". Más tarde, los ingleses la renombraron como Nueva York. Fue un punto importante para inmigrantes en Ellis Island.</p>
+            </div>
+            <div class="section" id="libertad">
+                <h2>Estatua de la Libertad</h2>
+                <img src="https://4.bp.blogspot.com/-3-iZryHikBc/UT-1kJ85API/AAAAAAAAQbM/QR93MB6bNIE/s1600/estatua-de-la-libertad.jpg" alt="Estatua de la Libertad">
+                <p>La Estatua de la Libertad fue un regalo de Francia en 1886 y es un símbolo de libertad en todo el mundo.</p>
+            </div>
+            <div class="section" id="centralpark">
+                <h2>Central Park</h2>
+                <img src="https://bonjournewyork.fr/wp-content/uploads/2020/04/central-park.jpg" alt="Central Park">
+                <p>Central Park es un enorme parque en medio de la ciudad. Tiene lagos, teatros, un zoológico y hasta un castillo.</p>
+            </div>
+            <div class="section" id="wallstreet">
+                <h2>Wall Street</h2>
+                <img src="https://img.remediosdigitales.com/8e460d/3642179597_2ccb2dd44e/1366_2000.jpg" alt="Wall Street">
+                <p>Wall Street es famosa por ser el corazón financiero de Estados Unidos. Aquí ocurrió el escándalo financiero de 2008.</p>
+            </div>
+            <div class="section" id="pizza">
+                <h2>Pizza Neoyorquina</h2>
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/19/22/dc/bb/photo0jpg.jpg" alt="Pizza Neoyorquina">
+                <p>La pizza de Nueva York tiene una masa delgada y mucho queso. Es una de las comidas favoritas de los neoyorquinos.</p>
+            </div>
+            <div class="section" id="cultura">
+                <h2>Cultura</h2>
+                <p>Nueva York es un crisol de culturas con comunidades de todo el mundo. Ofrece eventos culturales como desfiles, conciertos y exhibiciones de arte de clase mundial.</p>
+            </div>
+            <div class="section" id="eventos">
+                <h2>Eventos Famosos</h2>
+                <p>Algunos de los eventos más destacados de Nueva York incluyen el Desfile del Día de Acción de Gracias de Macy's, el Año Nuevo en Times Square y la Semana de la Moda de Nueva York.</p>
+            </div>
+            <div class="section" id="museos">
+                <h2>Museos</h2>
+                <p>Nueva York cuenta con museos icónicos como el Museo de Arte Moderno (MoMA), el Museo Metropolitano de Arte y el Museo Americano de Historia Natural.</p>
+            </div>
+            <div class="section" id="transporte">
+                <h2>Transporte</h2>
+                <p>La ciudad tiene un sistema de transporte público extenso, incluyendo el metro de Nueva York, uno de los más grandes y antiguos del mundo.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
